@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/globalStyles.css">
+    <link rel="stylesheet" href="./pages/home/index.css">
+    <link rel="shortcut icon" href="./assets/img/favicon.ico" type="image/x-icon">
+    <title>Webwomen</title>
+    <meta
+      name="description"
+      content="Está procurando oportunidades de estágio, emprego ou bolsas de estudo? 
+      Ou até mesmo oportunidades para atender eventos de tecnologia no Brasil 
+      e ao redor do mundo?"
+    />
+</head>
+<body>
+    <figure class="bg">
+      <!-- aqui entra a imagem de fundo -->
+      <img class="bg-img" src="./assets/img/Pexels Photo by Christina Morillo.png" alt="">
+    </figure>
+  <main class="container">
+       <div class="presentation">
+        <!-- logo -->
+        <figure class="logo"><img src="/assets/img/logo.svg" alt=""></figure>
+        <h1 class="main-title">Lugar de mulher é onde ela quiser</h1>
+        <p class="main-text">Está procurando oportunidades de estágio, emprego ou bolsas de estudo? </p>
+        <p class="main-text">Ou até mesmo oportunidades para atender eventos de tecnologia no Brasil </p>
+        <p class="main-text-strong"><strong>Confere aqui o que temos para você</strong></p>
+        <button class="main-button">Ir para seção das vagas</button>
+       </div> 
+       <section class="posts">
+          <h2 class="title-job-post">Vagas</h2>
+          <main class="columns">
+          <ul class="post-ul">
+            <!-- will be dinamic -->
+            <!-- <li class="post-li">
+              <h2 class="post-title">Pessoa desenvolvedora</h2>
+              <div class="interprise">
+                <p class="text-interprise">Empresa</p>
+                <p class="text-city">Cidade</p>
+              </div>
+              <p class="post-description">Descrição da vaga</p>
+              <div class="div-type-and-aply">
+                <p class="job-type">Home Office</p>
+                <button class="aply">Candidatar</button>
+              </div>
+            </li>
+            <li class="post-li">
+              <h2 class="post-title">Pessoa desenvolvedora</h2>
+              <div class="interprise">
+                <p class="text-interprise">Empresa</p>
+                <p class="text-city">Cidade</p>
+              </div>
+              <p class="post-description">Descrição da vaga</p>
+              <div class="div-type-and-aply">
+                <p class="job-type">Home Office</p>
+                <button class="aply">Candidatar</button>
+              </div>
+            </li> -->
+          </ul>
+          <!-- selected itens -->
+          <ul class="selected-ul">
+            <div class="empty">
+              <!-- h2 e p receberão display none quando ul receber li -->
+              <h2 class="empty-title">Vagas selecionadas</h2>
+              <p class="empty-text">Você ainda não aplicou para nenhuma vaga</p>
+            </div>
+            <!-- <li class="selected-li">
+              <div class="div-title-and-button">
+                <h3 class="selected-title">Pessoa desenvolvedora</h3>
+                <button class="selected-button"><img src="./assets/img/delete.png" alt=""></button>
+              </div>
+              <div class="div-interprise-and-city">
+                <p class="selected-interprise">Empresa</p>
+                <p class="selected-city">City</p>
+              </div>
+            </li> -->
+          </ul>
+        </main>
+       </section>
+  </main>
+    <script src="./pages/home/jobsData.js"></script>
+    <script src="./pages/home/index.js"></script>
+</body>
+</html>
